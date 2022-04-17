@@ -1,0 +1,212 @@
+﻿@model BTL_N9.Models.SanPham
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div id="page-wrapper">
+    <h3>Xóa sản phẩm</h3>
+    <div>
+        <h4>Bạn muốn xóa sản phẩm có mã: <strong>@Model.MaSanPham</strong> ?</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ThuongHieu1.MaThuongHieu)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ThuongHieu1.MaThuongHieu)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.TenSanPham)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.TenSanPham)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.TomTat)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.TomTat)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Anh)
+            </dt>
+
+            <dd>
+                <img src="~/Content/fileimage/@Model.Anh" width="150" height="150" /> <span />
+                @Html.DisplayFor(model => model.Anh)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.SoLuongNhap)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.SoLuongNhap)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.SoLuongTonKho)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.SoLuongTonKho)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.GiaNhap)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.GiaNhap)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.GiaDeXuat)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.GiaDeXuat)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.GiaBan)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.GiaBan)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.BaoHiem)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.BaoHiem)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.BaoHanh)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.BaoHanh)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ThamDinhThatGia)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ThamDinhThatGia)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.GiaoHang)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.GiaoHang)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ThuongHieu)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ThuongHieu)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.XuatXu)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.XuatXu)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DHDanhCho)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DHDanhCho)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.KieuMay)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.KieuMay)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.KichCo)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.KichCo)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ChatLieuVo)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ChatLieuVo)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ChatLieuDay)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ChatLieuDay)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ChatLieuKinh)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ChatLieuKinh)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ChucNang)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ChucNang)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DoChiuNuoc)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DoChiuNuoc)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Xóa" class="btn btn-default" /> |
+                @Html.ActionLink("Quay lại", "Index", "SanPhams", new { @class = "btn btn-primary" })
+            </div>
+        }
+    </div>
+</div>
+
+

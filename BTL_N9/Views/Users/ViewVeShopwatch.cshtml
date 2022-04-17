@@ -1,0 +1,2944 @@
+﻿<!DOCTYPE html>
+<html lang="vi" class="loading-site no-js bg-fill">
+<head>
+    <meta charset="UTF-8" />
+    <title>Giới thiệu về ShopWatch</title>
+    <style id="rocket-critical-css">
+        .screen-reader-text {
+            border: 0;
+            clip: rect(1px, 1px, 1px, 1px);
+            -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            overflow-wrap: normal !important;
+            word-wrap: normal !important;
+            padding: 0;
+            position: absolute !important;
+            width: 1px
+        }
+
+        html {
+            font-family: sans-serif;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%
+        }
+
+        body {
+            margin: 0
+        }
+
+        footer,
+        header,
+        main {
+            display: block
+        }
+
+        a {
+            background-color: transparent
+        }
+
+        strong {
+            font-weight: inherit
+        }
+
+        strong {
+            font-weight: bolder
+        }
+
+        img {
+            border-style: none
+        }
+
+        button,
+        input {
+            font: inherit
+        }
+
+        button,
+        input {
+            overflow: visible
+        }
+
+        button {
+            text-transform: none
+        }
+
+        button,
+        [type="submit"] {
+            -webkit-appearance: button
+        }
+
+            button::-moz-focus-inner,
+            input::-moz-focus-inner {
+                border: 0;
+                padding: 0
+            }
+
+            button:-moz-focusring,
+            input:-moz-focusring {
+                outline: 1px dotted ButtonText
+            }
+
+        [type="checkbox"] {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 0
+        }
+
+        [type="search"] {
+            -webkit-appearance: textfield
+        }
+
+            [type="search"]::-webkit-search-cancel-button,
+            [type="search"]::-webkit-search-decoration {
+                -webkit-appearance: none
+            }
+
+        *,
+        *:before,
+        *:after {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        html {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            background-attachment: fixed
+        }
+
+        body {
+            color: #777;
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: inline-block;
+            vertical-align: middle
+        }
+
+        a,
+        button,
+        input {
+            -ms-touch-action: manipulation;
+            touch-action: manipulation
+        }
+
+        .col {
+            position: relative;
+            margin: 0;
+            padding: 0 15px 30px;
+            width: 100%
+        }
+
+        .col-inner {
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            -webkit-box-flex: 1;
+            -ms-flex: 1 0 auto;
+            flex: 1 0 auto
+        }
+
+        media screen and (min-width:850px) {
+            .col:first-child .col-inner
+
+        {
+            margin-left: auto;
+            margin-right: 0
+        }
+
+        }
+
+        media screen and (max-width:849px) {
+            .col
+
+        {
+            padding-bottom: 30px
+        }
+
+        }
+
+        media screen and (min-width:850px) {
+            .large-12
+
+        {
+            max-width: 100%;
+            -ms-flex-preferred-size: 100%;
+            flex-basis: 100%
+        }
+
+        .large-columns-3 > .col {
+            max-width: 33.33333%;
+            -ms-flex-preferred-size: 33.33333%;
+            flex-basis: 33.33333%
+        }
+
+        }
+
+        body,
+        .container,
+        .row {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .container {
+            padding-left: 15px;
+            padding-right: 15px
+        }
+
+        .container,
+        .row {
+            max-width: 1080px
+        }
+
+        .flex-row {
+            -js-display: flex;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            width: 100%
+        }
+
+        .header .flex-row {
+            height: 100%
+        }
+
+        .flex-col {
+            max-height: 100%
+        }
+
+        .flex-grow {
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            -ms-flex-negative: 1;
+            -ms-flex-preferred-size: auto !important
+        }
+
+        .flex-center {
+            margin: 0 auto
+        }
+
+        .flex-left {
+            margin-right: auto
+        }
+
+        .flex-right {
+            margin-left: auto
+        }
+
+        media all and (-ms-high-contrast:none) {
+            .nav>li>a>i
+
+        {
+            top: -1px
+        }
+
+        }
+
+        .row {
+            width: 100%;
+            -js-display: flex;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap
+        }
+
+        .nav-dropdown {
+            position: absolute;
+            min-width: 260px;
+            max-height: 0;
+            z-index: 9;
+            padding: 20px 0 20px;
+            opacity: 0;
+            margin: 0;
+            color: #777;
+            background-color: #fff;
+            text-align: left;
+            display: table;
+            left: -99999px
+        }
+
+            .nav-dropdown:after {
+                visibility: hidden;
+                display: block;
+                content: "";
+                clear: both;
+                height: 0
+            }
+
+            .nav-dropdown li {
+                display: block;
+                margin: 0;
+                vertical-align: top
+            }
+
+            .nav-dropdown > li > a {
+                width: auto;
+                display: block;
+                padding: 10px 20px;
+                line-height: 1.3
+            }
+
+            .nav-dropdown > li:last-child:not(.nav-dropdown-col) > a {
+                border-bottom: 0 !important
+            }
+
+            .nav-dropdown.dropdown-uppercase > li > a {
+                text-transform: uppercase;
+                font-size: .85em
+            }
+
+        .nav-dropdown-has-arrow li.has-dropdown:after,
+        .nav-dropdown-has-arrow li.has-dropdown:before {
+            bottom: -2px;
+            z-index: 10;
+            opacity: 0;
+            left: 50%;
+            border: solid transparent;
+            content: '';
+            height: 0;
+            width: 0;
+            position: absolute
+        }
+
+        .nav-dropdown-has-arrow li.has-dropdown:after {
+            border-color: rgba(221, 221, 221, 0);
+            border-bottom-color: #fff;
+            border-width: 8px;
+            margin-left: -8px
+        }
+
+        .nav-dropdown-has-arrow li.has-dropdown:before {
+            z-index: -999;
+            border-width: 11px;
+            margin-left: -11px
+        }
+
+        .nav-dropdown-has-shadow .nav-dropdown {
+            -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15)
+        }
+
+        .nav-dropdown-has-arrow.nav-dropdown-has-border li.has-dropdown:before {
+            border-bottom-color: #ddd
+        }
+
+        .nav-dropdown-has-border .nav-dropdown {
+            border: 2px solid #ddd
+        }
+
+        .nav p {
+            margin: 0;
+            padding-bottom: 0
+        }
+
+        .nav,
+        .nav ul:not(.nav-dropdown) {
+            margin: 0;
+            padding: 0
+        }
+
+            .nav > li > button {
+                margin-bottom: 0
+            }
+
+        .nav {
+            width: 100%;
+            position: relative;
+            display: inline-block;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+            .nav > li {
+                display: inline-block;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                position: relative;
+                margin: 0 7px
+            }
+
+                .nav > li > a {
+                    padding: 10px 0;
+                    display: inline-block;
+                    display: -webkit-inline-box;
+                    display: -ms-inline-flexbox;
+                    display: inline-flex;
+                    -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center
+                }
+
+        .html .nav > li > a {
+            padding-top: 0;
+            padding-bottom: 0
+        }
+
+        .nav-small .nav > li > a {
+            vertical-align: top;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-weight: normal
+        }
+
+        .nav-small.nav > li.html {
+            font-size: .75em
+        }
+
+        .nav-center {
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center
+        }
+
+        .nav-left {
+            -webkit-box-pack: start;
+            -ms-flex-pack: start;
+            justify-content: flex-start
+        }
+
+        .nav-right {
+            -webkit-box-pack: end;
+            -ms-flex-pack: end;
+            justify-content: flex-end
+        }
+
+        media (max-width:849px) {
+            .medium-nav-center
+
+        {
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center
+        }
+
+        }
+
+        .nav > li > a,
+        .nav-dropdown > li > a {
+            color: rgba(102, 102, 102, 0.85)
+        }
+
+        .nav-dropdown > li > a {
+            display: block
+        }
+
+        .nav li:first-child {
+            margin-left: 0 !important
+        }
+
+        .nav li:last-child {
+            margin-right: 0 !important
+        }
+
+        .nav-uppercase > li > a {
+            letter-spacing: .02em;
+            text-transform: uppercase;
+            font-weight: bolder
+        }
+
+        media (min-width:850px) {
+            .nav-divided>li
+
+        {
+            margin: 0 .7em
+        }
+
+        .nav-divided > li + li > a:after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 1px;
+            border-left: 1px solid rgba(0, 0, 0, 0.1);
+            height: 15px;
+            margin-top: -7px;
+            left: -1em
+        }
+
+        }
+
+        li.html form,
+        li.html input {
+            margin: 0
+        }
+
+        .nav-line-grow > li > a:before {
+            content: " ";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+            width: 100%;
+            background-color: #446084;
+            opacity: 0;
+            height: 3px
+        }
+
+        .nav-line-grow > li > a:before {
+            width: 0%
+        }
+
+        .toggle {
+            height: auto;
+            width: 45px;
+            line-height: 1;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            padding: 0;
+            color: currentColor;
+            opacity: .6;
+            margin: 0 5px 0 0
+        }
+
+            .toggle i {
+                font-size: 1.8em
+            }
+
+        .nav.nav-vertical {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+            flex-flow: column
+        }
+
+            .nav.nav-vertical li {
+                list-style: none;
+                margin: 0;
+                width: 100%
+            }
+
+        .nav-vertical li li {
+            font-size: 1em;
+            padding-left: .5em
+        }
+
+        .nav-vertical > li {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+            .nav-vertical > li ul {
+                width: 100%
+            }
+
+            .nav-vertical > li > ul > li a,
+            .nav-vertical > li > a {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                width: auto;
+                -webkit-box-flex: 1;
+                -ms-flex-positive: 1;
+                flex-grow: 1
+            }
+
+            .nav-vertical > li.html {
+                padding-top: 1em;
+                padding-bottom: 1em
+            }
+
+            .nav-vertical > li > ul li a {
+                color: #666
+            }
+
+            .nav-vertical > li > ul {
+                margin: 0 0 2em;
+                padding-left: 1em
+            }
+
+        .nav .children {
+            position: fixed;
+            opacity: 0;
+            left: -99999px;
+            -webkit-transform: translateX(-10px);
+            -ms-transform: translateX(-10px);
+            transform: translateX(-10px)
+        }
+
+        .nav-sidebar.nav-vertical > li + li {
+            border-top: 1px solid #ececec
+        }
+
+        .nav-vertical > li + li {
+            border-top: 1px solid #ececec
+        }
+
+        .button,
+        button {
+            position: relative;
+            display: inline-block;
+            background-color: transparent;
+            text-transform: uppercase;
+            font-size: .97em;
+            letter-spacing: .03em;
+            font-weight: bolder;
+            text-align: center;
+            color: currentColor;
+            text-decoration: none;
+            border: 1px solid transparent;
+            vertical-align: middle;
+            border-radius: 0;
+            margin-top: 0;
+            margin-right: 1em;
+            text-shadow: none;
+            line-height: 2.4em;
+            min-height: 2.5em;
+            padding: 0 1.2em;
+            max-width: 100%;
+            text-rendering: optimizeLegibility;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+            .button span {
+                display: inline-block;
+                line-height: 1.6
+            }
+
+        .button {
+            color: #fff;
+            background-color: #446084;
+            background-color: var(--primary-color);
+            border-color: rgba(0, 0, 0, 0.05)
+        }
+
+        .primary {
+            background-color: #446084
+        }
+
+        .secondary {
+            background-color: #d26e4b
+        }
+
+        .header-button {
+            display: inline-block
+        }
+
+            .header-button .button {
+                margin: 0
+            }
+
+        .flex-col button,
+        .flex-col .button,
+        .flex-col input {
+            margin-bottom: 0
+        }
+
+        .is-divider {
+            height: 3px;
+            display: block;
+            background-color: rgba(0, 0, 0, 0.1);
+            margin: 1em 0 1em;
+            width: 100%;
+            max-width: 30px
+        }
+
+        .widget .is-divider {
+            margin-top: .66em
+        }
+
+        form {
+            margin-bottom: 0
+        }
+
+        input[type='search'],
+        input[type='text'],
+        input[type='password'] {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            padding: 0 .75em;
+            height: 2.507em;
+            font-size: .97em;
+            border-radius: 0;
+            max-width: 100%;
+            width: 100%;
+            vertical-align: middle;
+            background-color: #fff;
+            color: #333;
+            -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1)
+        }
+
+        input[type='search'],
+        input[type='text'] {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            font-size: .9em;
+            margin-bottom: 0.4em
+        }
+
+        input[type='checkbox'] {
+            display: inline;
+            margin-right: 10px;
+            font-size: 16px
+        }
+
+        i[class^="icon-"] {
+            font-family: 'fl-icons' !important;
+            font-display: block;
+            speak: none !important;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+            font-style: normal !important;
+            font-weight: normal !important;
+            font-variant: normal !important;
+            text-transform: none !important;
+            position: relative;
+            line-height: 1.2
+        }
+
+        button i,
+        .button i {
+            vertical-align: middle;
+            top: -1.5px
+        }
+
+        .button.icon {
+            margin-left: .12em;
+            margin-right: .12em;
+            min-width: 2.5em;
+            padding-left: .6em;
+            padding-right: .6em;
+            display: inline-block
+        }
+
+            .button.icon i {
+                font-size: 1.2em
+            }
+
+            .button.icon.is-small {
+                border-width: 1px
+            }
+
+                .button.icon.is-small i {
+                    top: -1px
+                }
+
+        .nav > li > a > i {
+            vertical-align: middle;
+            font-size: 20px
+        }
+
+            .nav > li > a > i + span {
+                margin-left: 5px
+            }
+
+        .has-dropdown .icon-angle-down {
+            font-size: 16px;
+            margin-left: .2em;
+            opacity: .6
+        }
+
+        [data-icon-label] {
+            position: relative
+        }
+
+        [data-icon-label="0"]:after {
+            display: none
+        }
+
+        [data-icon-label]:after {
+            content: attr(data-icon-label);
+            position: absolute;
+            font-style: normal;
+            font-family: Arial, Sans-serif !important;
+            top: -10px;
+            right: -10px;
+            font-weight: bolder;
+            background-color: #d26e4b;
+            -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+            box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+            font-size: 11px;
+            padding-left: 2px;
+            padding-right: 2px;
+            opacity: .9;
+            line-height: 17px;
+            letter-spacing: -.5px;
+            height: 17px;
+            min-width: 17px;
+            border-radius: 99px;
+            color: #fff;
+            text-align: center;
+            z-index: 1
+        }
+
+        .button [data-icon-label]:after {
+            top: -12px;
+            right: -12px
+        }
+
+        img {
+            opacity: 1
+        }
+
+        .mfp-hide {
+            display: none !important
+        }
+
+        label {
+            color: #222
+        }
+
+        a {
+            color: #334862;
+            text-decoration: none
+        }
+
+        ul {
+            list-style: disc
+        }
+
+        ul {
+            margin-top: 0;
+            padding: 0
+        }
+
+            ul ul {
+                margin: 1.5em 0 1.5em 3em
+            }
+
+        li {
+            margin-bottom: .6em
+        }
+
+        .button,
+        button,
+        input {
+            margin-bottom: 1em
+        }
+
+        form,
+        p,
+        ul {
+            margin-bottom: 1.3em
+        }
+
+            form p {
+                margin-bottom: .5em
+            }
+
+        body {
+            line-height: 1.6
+        }
+
+        h3,
+        h4 {
+            color: #555;
+            width: 100%;
+            margin-top: 0;
+            margin-bottom: .5em;
+            text-rendering: optimizeSpeed
+        }
+
+        h3 {
+            font-size: 1.25em
+        }
+
+        h4 {
+            font-size: 1.125em
+        }
+
+        media (max-width:549px) {
+            h3
+
+        {
+            font-size: 1em
+        }
+
+        }
+
+        p {
+            margin-top: 0
+        }
+
+        .uppercase,
+        span.widget-title {
+            line-height: 1.05;
+            letter-spacing: .05em;
+            text-transform: uppercase
+        }
+
+        span.widget-title {
+            font-size: 1em;
+            font-weight: 600
+        }
+
+        .is-normal {
+            font-weight: normal
+        }
+
+        .uppercase {
+            line-height: 1.2;
+            text-transform: uppercase
+        }
+
+        .is-small,
+        .is-small.button {
+            font-size: .8em
+        }
+
+        .nav > li > a {
+            font-size: .8em
+        }
+
+        .nav > li.html {
+            font-size: .85em
+        }
+
+        .nav-size-medium > li > a {
+            font-size: .9em
+        }
+
+        .nav-spacing-medium > li {
+            margin: 0 9px
+        }
+
+        .container:after,
+        .row:after {
+            content: "";
+            display: table;
+            clear: both
+        }
+
+        media (min-width:850px) {
+            .show-for-medium
+
+        {
+            display: none !important
+        }
+
+        }
+
+        media (max-width:849px) {
+            .hide-for-medium
+
+        {
+            display: none !important
+        }
+
+        }
+
+        .full-width {
+            width: 100% !important;
+            max-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            display: block
+        }
+
+        .mb-0 {
+            margin-bottom: 0 !important
+        }
+
+        .pb-0 {
+            padding-bottom: 0 !important
+        }
+
+        .inner-padding {
+            padding: 30px
+        }
+
+        .text-left {
+            text-align: left
+        }
+
+        .text-center {
+            text-align: center
+        }
+
+            .text-center > div,
+            .text-center .is-divider {
+                margin-left: auto;
+                margin-right: auto
+            }
+
+        .relative {
+            position: relative !important
+        }
+
+        .fill {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            right: 0;
+            bottom: 0;
+            padding: 0 !important;
+            margin: 0 !important
+        }
+
+        .bg-fill {
+            background-size: cover !important;
+            background-repeat: no-repeat !important;
+            background-position: 50% 50%
+        }
+
+        .round {
+            border-radius: 5px
+        }
+
+        .z-top {
+            z-index: 9995
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: -ms-autohiding-scrollbar;
+            scrollbar-width: none
+        }
+
+            .no-scrollbar::-webkit-scrollbar {
+                width: 0px !important;
+                height: 0px !important
+            }
+
+        .screen-reader-text {
+            clip: rect(1px, 1px, 1px, 1px);
+            position: absolute !important;
+            height: 1px;
+            width: 1px;
+            overflow: hidden
+        }
+
+        .nav-dark .nav > li > a {
+            color: rgba(255, 255, 255, 0.8)
+        }
+
+        .nav-dark .nav > li.header-divider,
+        .nav-dark .header-divider:after,
+        .nav-dark .nav-divided > li + li > a:after {
+            border-color: rgba(255, 255, 255, 0.2)
+        }
+
+        .nav-dark .nav > li.html,
+        .nav-dark .header-button {
+            color: #fff
+        }
+
+        .nav-dark span.amount {
+            color: currentColor
+        }
+
+        html {
+            overflow-x: hidden
+        }
+
+        media (max-width:849px) {
+            body
+
+        {
+            overflow-x: hidden
+        }
+
+        }
+
+        #wrapper,
+        #main {
+            background-color: #fff;
+            position: relative
+        }
+
+        .page-wrapper {
+            padding-top: 30px;
+            padding-bottom: 30px
+        }
+
+        .header,
+        .header-wrapper {
+            width: 100%;
+            z-index: 30;
+            position: relative;
+            background-size: cover;
+            background-position: 50% 0
+        }
+
+        .header-bg-color {
+            background-color: rgba(255, 255, 255, 0.9)
+        }
+
+        .header-top,
+        .header-bottom {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-wrap: no-wrap;
+            flex-wrap: no-wrap
+        }
+
+        .header-bg-image,
+        .header-bg-color {
+            background-position: 50% 0
+        }
+
+        .header-top {
+            background-color: #446084;
+            z-index: 11;
+            position: relative;
+            min-height: 20px
+        }
+
+        .header-main {
+            z-index: 10;
+            position: relative
+        }
+
+        .header-bottom {
+            z-index: 9;
+            position: relative;
+            min-height: 35px
+        }
+
+        .top-divider {
+            margin-bottom: -1px;
+            border-top: 1px solid currentColor;
+            opacity: 0.1
+        }
+
+        .nav-dark .top-divider {
+            display: none
+        }
+
+        .nav > li.header-divider {
+            border-left: 1px solid rgba(0, 0, 0, 0.1);
+            height: 30px;
+            vertical-align: middle;
+            position: relative;
+            margin: 0 7.5px
+        }
+
+        .nav-dark .nav > li.header-divider {
+            border-color: rgba(255, 255, 255, 0.1)
+        }
+
+        media (min-width:850px) {
+            .aligncenter
+
+        {
+            clear: both;
+            display: block;
+            margin: 0 auto
+        }
+
+        }
+
+        .widget {
+            margin-bottom: 1.5em
+        }
+
+            .widget ul {
+                margin: 0
+            }
+
+            .widget li {
+                list-style: none
+            }
+
+        .footer-wrapper {
+            width: 100%;
+            position: relative
+        }
+
+        .footer {
+            padding: 30px 0 0
+        }
+
+        .footer-1 {
+            background-color: #fff
+        }
+
+        .footer-1 {
+            border-top: 1px solid rgba(0, 0, 0, 0.05)
+        }
+
+        html {
+            background-color: #5b5b5b
+        }
+
+        .footer ul {
+            margin: 0
+        }
+
+        .logo {
+            line-height: 1;
+            margin: 0
+        }
+
+            .logo a {
+                text-decoration: none;
+                display: block;
+                color: #446084;
+                font-size: 32px;
+                text-transform: uppercase;
+                font-weight: bolder;
+                margin: 0
+            }
+
+            .logo img {
+                display: block;
+                width: auto
+            }
+
+        .header-logo-dark,
+        .nav-dark .header-logo {
+            display: none !important
+        }
+
+        .nav-dark .header-logo-dark {
+            display: block !important
+        }
+
+        .nav-dark .logo a {
+            color: #fff
+        }
+
+        .logo-left .logo {
+            margin-left: 0;
+            margin-right: 30px
+        }
+
+        media screen and (max-width:849px) {
+            .header-inner .nav
+
+        {
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap
+        }
+
+        .medium-logo-center .flex-left {
+            -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+            order: 1;
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 0px;
+            flex: 1 1 0
+        }
+
+        .medium-logo-center .logo {
+            -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+            order: 2;
+            text-align: center;
+            margin: 0 15px
+        }
+
+            .medium-logo-center .logo img {
+                margin: 0 auto
+            }
+
+        .medium-logo-center .flex-right {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 0px;
+            flex: 1 1 0;
+            -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+            order: 3
+        }
+
+        }
+
+        .sidebar-menu .search-form {
+            display: block !important
+        }
+
+        .searchform-wrapper form {
+            margin-bottom: 0
+        }
+
+        .sidebar-menu .search-form {
+            padding: 5px 0;
+            width: 100%
+        }
+
+        .searchform-wrapper:not(.form-flat) .submit-button {
+            border-top-left-radius: 0 !important;
+            border-bottom-left-radius: 0 !important
+        }
+
+        .searchform {
+            position: relative
+        }
+
+            .searchform .button.icon {
+                margin: 0
+            }
+
+                .searchform .button.icon i {
+                    font-size: 1.2em
+                }
+
+        .searchform-wrapper {
+            width: 100%
+        }
+
+            .searchform-wrapper .autocomplete-suggestions {
+                overflow-y: scroll;
+                -webkit-overflow-scrolling: touch;
+                max-height: 50vh;
+                overflow-y: auto
+            }
+
+        .header .search-form .autocomplete-suggestions {
+            max-height: 80vh
+        }
+
+        .header .search-form .live-search-results {
+            text-align: left;
+            color: #111;
+            top: 105%;
+            -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+            left: 0;
+            right: 0;
+            background-color: rgba(255, 255, 255, 0.95);
+            position: absolute
+        }
+
+        .icon-phone:before {
+            content: "\e600"
+        }
+
+        .icon-menu:before {
+            content: "\e800"
+        }
+
+        .icon-shopping-bag:before {
+            content: "\e90a"
+        }
+
+        .icon-angle-down:before {
+            content: "\f107"
+        }
+
+        .icon-search:before {
+            content: "\e012"
+        }
+
+        .icon-clock:before {
+            content: "\e01a"
+        }
+
+        .woocommerce-form-login .button {
+            margin-bottom: 0
+        }
+
+        p.form-row-wide {
+            clear: both
+        }
+
+        span.amount {
+            white-space: nowrap;
+            color: #111;
+            font-weight: bold
+        }
+
+        .header-cart-title span.amount {
+            color: currentColor
+        }
+
+        .woocommerce-mini-cart__empty-message {
+            text-align: center
+        }
+
+        .aligncenter {
+            clear: both
+        }
+    </style>
+    <link rel="preload" href="~/Content/bootstrapMau.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" media="all" data-minify="1" />
+    <style id='woocommerce-inline-inline-css' type='text/css'>
+        .woocommerce form .form-row .required {
+            visibility: visible;
+        }
+    </style>
+
+    <!-- style thanh tìm kiếm -->
+    <style id="custom-css" type="text/css">
+        :root {
+            --primary-color: #DA1818;
+        }
+
+        .header-main {
+            height: 91px
+        }
+
+        #logo img {
+            max-height: 91px
+        }
+
+        #logo {
+            width: 166px;
+        }
+
+        .header-bottom {
+            min-height: 55px
+        }
+
+        .header-top {
+            min-height: 30px
+        }
+
+        .transparent .header-main {
+            height: 265px
+        }
+
+        .transparent #logo img {
+            max-height: 265px
+        }
+
+        .has-transparent + .page-title:first-of-type,
+        .has-transparent + #main > .page-title,
+        .has-transparent + #main > div > .page-title,
+        .has-transparent + #main .page-header-wrapper:first-of-type .page-title {
+            padding-top: 345px;
+        }
+
+        .header.show-on-scroll,
+        .stuck .header-main {
+            height: 70px !important
+        }
+
+        .stuck #logo img {
+            max-height: 70px !important
+        }
+
+        .search-form {
+            width: 90%;
+        }
+
+        .header-bg-color,
+        .header-wrapper {
+            background-color: #ffffff
+        }
+
+        .header-bottom {
+            background-color: #ffffff
+        }
+
+        .header-main .nav > li > a {
+            line-height: 16px
+        }
+
+        .stuck .header-main .nav > li > a {
+            line-height: 50px
+        }
+
+        .header-bottom-nav > li > a {
+            line-height: 16px
+        }
+
+        media (max-width: 549px) {
+            .header-main
+
+        {
+            height: 70px
+        }
+
+        #logo img {
+            max-height: 70px
+        }
+
+        }
+
+        .nav-dropdown {
+            border-radius: 5px
+        }
+
+        .nav-dropdown {
+            font-size: 100%
+        }
+
+        .header-top {
+            background-color: #b21414 !important;
+        }
+        /* Color */
+
+        .accordion-title.active,
+        .has-icon-bg .icon .icon-inner,
+        .logo a,
+        .primary.is-underline,
+        .primary.is-link,
+        .badge-outline .badge-inner,
+        .nav-outline > li.active > a,
+        .nav-outline > li.active > a,
+        .cart-icon strong,
+        [data-color='primary'],
+        .is-outline.primary {
+            color: #DA1818;
+        }
+        /* Color !important */
+
+        [data-text-color="primary"] {
+            color: #DA1818 !important;
+        }
+        /* Background Color */
+
+        [data-text-bg="primary"] {
+            background-color: #DA1818;
+        }
+        /* Background */
+
+        .scroll-to-bullets a,
+        .featured-title,
+        .label-new.menu-item > a:after,
+        .nav-pagination > li > .current,
+        .nav-pagination > li > span:hover,
+        .nav-pagination > li > a:hover,
+        .has-hover:hover .badge-outline .badge-inner,
+        button[type="submit"],
+        .button.wc-forward:not(.checkout):not(.checkout-button),
+        .button.submit-button,
+        .button.primary:not(.is-outline),
+        .featured-table .title,
+        .is-outline:hover,
+        .has-icon:hover .icon-label,
+        .nav-dropdown-bold .nav-column li > a:hover,
+        .nav-dropdown.nav-dropdown-bold > li > a:hover,
+        .nav-dropdown-bold.dark .nav-column li > a:hover,
+        .nav-dropdown.nav-dropdown-bold.dark > li > a:hover,
+        .is-outline:hover,
+        .tagcloud a:hover,
+        .grid-tools a,
+        input[type='submit']:not(.is-form),
+        .box-badge:hover .box-text,
+        input.button.alt,
+        .nav-box > li > a:hover,
+        .nav-box > li.active > a,
+        .nav-pills > li.active > a,
+        .current-dropdown .cart-icon strong,
+        .cart-icon:hover strong,
+        .nav-line-bottom > li > a:before,
+        .nav-line-grow > li > a:before,
+        .nav-line > li > a:before,
+        .banner,
+        .header-top,
+        .slider-nav-circle .flickity-prev-next-button:hover svg,
+        .slider-nav-circle .flickity-prev-next-button:hover .arrow,
+        .primary.is-outline:hover,
+        .button.primary:not(.is-outline),
+        input[type='submit'].primary,
+        input[type='submit'].primary,
+        input[type='reset'].button,
+        input[type='button'].primary,
+        .badge-inner {
+            background-color: #DA1818;
+        }
+            /* Border */
+
+            .nav-vertical.nav-tabs > li.active > a,
+            .scroll-to-bullets a.active,
+            .nav-pagination > li > .current,
+            .nav-pagination > li > span:hover,
+            .nav-pagination > li > a:hover,
+            .has-hover:hover .badge-outline .badge-inner,
+            .accordion-title.active,
+            .featured-table,
+            .is-outline:hover,
+            .tagcloud a:hover,
+            blockquote,
+            .has-border,
+            .cart-icon strong:after,
+            .cart-icon strong,
+            .blockUI:before,
+            .processing:before,
+            .loading-spin,
+            .slider-nav-circle .flickity-prev-next-button:hover svg,
+            .slider-nav-circle .flickity-prev-next-button:hover .arrow,
+            .primary.is-outline:hover {
+                border-color: #DA1818
+            }
+
+        .nav-tabs > li.active > a {
+            border-top-color: #DA1818
+        }
+
+        .widget_shopping_cart_content .blockUI.blockOverlay:before {
+            border-left-color: #DA1818
+        }
+
+        .woocommerce-checkout-review-order .blockUI.blockOverlay:before {
+            border-left-color: #DA1818
+        }
+        /* Fill */
+
+        .slider .flickity-prev-next-button:hover svg,
+        .slider .flickity-prev-next-button:hover .arrow {
+            fill: #DA1818;
+        }
+        /* Background Color */
+
+        [data-icon-label]:after,
+        .secondary.is-underline:hover,
+        .secondary.is-outline:hover,
+        .icon-label,
+        .button.secondary:not(.is-outline),
+        .button.alt:not(.is-outline),
+        .badge-inner.on-sale,
+        .button.checkout,
+        .single_add_to_cart_button,
+        .current .breadcrumb-step {
+            background-color: #cc6b04;
+        }
+
+        [data-text-bg="secondary"] {
+            background-color: #cc6b04;
+        }
+        /* Color */
+
+        .secondary.is-underline,
+        .secondary.is-link,
+        .secondary.is-outline,
+        .stars a.active,
+        .star-rating:before,
+        .woocommerce-page .star-rating:before,
+        .star-rating span:before,
+        .color-secondary {
+            color: #cc6b04
+        }
+        /* Color !important */
+
+        [data-text-color="secondary"] {
+            color: #cc6b04 !important;
+        }
+        /* Border */
+
+        .secondary.is-outline:hover {
+            border-color: #cc6b04
+        }
+
+        body {
+            font-size: 100%;
+        }
+
+        body {
+            font-family: "Helvetica,Arial,sans-serif", sans-serif
+        }
+
+        body {
+            font-weight: 0
+        }
+
+        body {
+            color: #777777
+        }
+
+        .nav > li > a {
+            font-family: "Helvetica,Arial,sans-serif", sans-serif;
+        }
+
+        .mobile-sidebar-levels-2 .nav > li > ul > li > a {
+            font-family: "Helvetica,Arial,sans-serif", sans-serif;
+        }
+
+        .nav > li > a {
+            font-weight: 700;
+        }
+
+        .mobile-sidebar-levels-2 .nav > li > ul > li > a {
+            font-weight: 700;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .heading-font,
+        .off-canvas-center .nav-sidebar.nav-vertical > li > a {
+            font-family: "Helvetica,Arial,sans-serif", sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .heading-font,
+        .banner h1,
+        .banner h2 {
+            font-weight: 700;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .heading-font {
+            color: #555555;
+        }
+
+        .alt-font {
+            font-family: "Helvetica,Arial,sans-serif", sans-serif;
+        }
+
+        .header:not(.transparent) .header-bottom-nav.nav > li > a {
+            color: rgba(102, 102, 102, 0.85);
+        }
+
+            .header:not(.transparent) .header-bottom-nav.nav > li > a:hover,
+            .header:not(.transparent) .header-bottom-nav.nav > li.active > a,
+            .header:not(.transparent) .header-bottom-nav.nav > li.current > a,
+            .header:not(.transparent) .header-bottom-nav.nav > li > a.active,
+            .header:not(.transparent) .header-bottom-nav.nav > li > a.current {
+                color: #dd3333;
+            }
+
+        .header-bottom-nav.nav-line-bottom > li > a:before,
+        .header-bottom-nav.nav-line-grow > li > a:before,
+        .header-bottom-nav.nav-line > li > a:before,
+        .header-bottom-nav.nav-box > li > a:hover,
+        .header-bottom-nav.nav-box > li.active > a,
+        .header-bottom-nav.nav-pills > li > a:hover,
+        .header-bottom-nav.nav-pills > li.active > a {
+            color: #FFF !important;
+            background-color: #dd3333;
+        }
+
+        a {
+            color: #DA1818;
+        }
+
+            a:hover {
+                color: #111111;
+            }
+
+        .tagcloud a:hover {
+            border-color: #111111;
+            background-color: #111111;
+        }
+
+        .shop-page-title.featured-title .title-overlay {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .current .breadcrumb-step,
+        [data-icon-label]:after,
+        .button#place_order,
+        .button.checkout,
+        .checkout-button,
+        .single_add_to_cart_button.button {
+            background-color: #dd3333 !important
+        }
+
+        .has-equal-box-heights .box-image {
+            padding-top: 100%;
+        }
+
+        media screen and (min-width: 550px) {
+            .products .box-vertical .box-image
+
+        {
+            min-width: 247px !important;
+            width: 247px !important;
+        }
+
+        }
+        /* Custom CSS */
+
+        #billing_country_field {
+            display: none
+        }
+
+        #billing_address_1_field {
+            width: 100%
+        }
+
+        .table_1 {
+            width: 50%;
+            float: left;
+            clear: left;
+            padding-right: 30px;
+            box-sizing: border-box
+        }
+
+        .table_2 {
+            width: 50%;
+            float: right
+        }
+
+        .woocommerce-ordering {
+            display: none
+        }
+
+        .devvn_prod_cmt {
+            padding: 10px
+        }
+
+        #reviews.woocommerce-Reviews {
+            padding: 10px
+        }
+
+        .single_add_to_cart_button.button {
+            width: 68%;
+            font-size: 20px
+        }
+
+        .quantity {
+            vertical-align: middle
+        }
+
+        .form-flat button {
+            border-radius: 15px
+        }
+        /* Custom CSS Mobile */
+
+        media (max-width: 549px) {
+            .table_1
+
+        {
+            width: 100%;
+            float: left;
+            clear: left
+        }
+
+        .table_2 {
+            width: 100%;
+            float: right;
+            clear: right
+        }
+
+        }
+
+        .label-new.menu-item > a:after {
+            content: "New";
+        }
+
+        .label-hot.menu-item > a:after {
+            content: "Hot";
+        }
+
+        .label-sale.menu-item > a:after {
+            content: "Sale";
+        }
+
+        .label-popular.menu-item > a:after {
+            content: "Popular";
+        }
+    </style>
+    <noscript>
+        <style id="rocket-lazyload-nojs-css">
+            .rll-youtube-player, [data-lazy-src] {
+                display: none !important;
+            }
+        </style>
+    </noscript>
+
+
+    <!-- Thanh menu -->
+    <style>
+        .dropbtn {
+            background-color: white;
+            color: black;
+            padding: 12px;
+            border: none;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .dropbtn1 {
+            background-color: white;
+            color: black;
+            padding: 12px;
+            text-decoration: none;
+            border: none;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 180px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 14px 16px;
+                text-decoration: none;
+                display: block;
+                font-size: 14px;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            color: red
+        }
+
+        .dropbtn1:hover {
+            color: red
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body data-rsssl=1 class="page-template-default page page-id-11158 theme-flatsome woocommerce-no-js full-width bg-fill lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border">
+    <div id="wrapper">
+
+        <header id="header" class="header has-sticky sticky-jump">
+            <div class="header-wrapper">
+                <div id="top-bar" class="header-top hide-for-sticky nav-dark">
+                    <div class="flex-row container">
+                        <div class="flex-col hide-for-medium flex-left">
+                            <ul class="nav nav-left medium-nav-center nav-small  nav-divided">
+                                <li class="html custom html_topbar_left">MIỄN PHÍ VẬN CHUYỂN TOÀN QUỐC</li>
+                            </ul>
+                        </div>
+
+                        <div class="flex-col hide-for-medium flex-center">
+                            <ul class="nav nav-center nav-small  nav-divided">
+                            </ul>
+                        </div>
+
+                        <div class="flex-col hide-for-medium flex-right">
+                            <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
+                                <li class="header-divider"></li>
+                                <li class="html custom html_nav_position_text_top">
+                                    <ul id="header-contact" class="nav nav-divided nav-uppercase header-contact">
+                                        <li class="">
+                                            <a class="tooltip tooltipstered">
+                                                <i class="icon-clock" style="font-size:15px;"></i> <span>07:00 - 22:00</span>
+                                            </a>
+                                        </li>
+
+                                        <li class="">
+                                            <a href="#" class="tooltip tooltipstered">
+                                                <i class="icon-phone" style="font-size:15px;"></i> <span>08.6262.9999</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="masthead" class="header-main hide-for-sticky nav-dark">
+                    <div class="header-inner flex-row container logo-left medium-logo-center" role="navigation">
+
+                        <!-- Logo -->
+                        <div id="logo" class="flex-col logo">
+                            <!-- Header logo -->
+                            <a href="/Users/TrangChu" title="Đồng hồ" rel="TrangChu">
+                                <img width="166" height="91" src="~/Content/fileimage/logoHeader.png" class="header-logo-dark" alt="Đồng hồ chính hãng" />
+                            </a>
+                        </div>
+                        <!-- Left Elements -->
+                        <div class="flex-col hide-for-medium flex-left flex-grow">
+                            <ul class="header-nav header-nav-main nav nav-left  nav-uppercase">
+                                <li class="header-search-form search-form html relative has-icon">
+                                    <div class="header-search-form-wrapper">
+                                        <div class="searchform-wrapper ux-search-box relative is-normal">
+                                            <form role="search" method="post" class="searchform" action="/Users/ViewDanhSach">
+                                                <div class="flex-row relative">
+                                                    <div class="flex-col flex-grow">
+                                                        <label class="screen-reader-text" for="woocommerce-product-search-field-0">Tìm kiếm:</label>
+                                                        @Html.TextBox("searchString", ViewBag.CurrentFilter as string, new { @class = "search-field mb-0" })
+                                                    </div>
+                                                    <div class="flex-col">
+                                                        <button type="submit" value="Tìm kiếm" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="live-search-results text-left z-top"></div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="header-search-form-wrapper">
+                                        <div class="searchform-wrapper ux-search-box relative is-normal">
+                                            <div class="flex-row relative">
+                                                <div class="flex-col">
+                                                    @if (ViewBag.maKHang == "")
+                                                    {
+                                                        <a href="/Users/ViewDangNhap">
+                                                            <img src="~/Content/fileimage/iconAccount.jpg" style="width:35px; height:35px;">
+                                                        </a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <div class="dropdown">
+                                                            <a href="/Users/ViewTaiKhoan" class="dropbtn">
+                                                                <img src="~/Content/fileimage/iconAccount.jpg" style="width:35px; height:35px;">
+                                                            </a>
+                                                            <div class="dropdown-content">
+                                                                <a href="/Users/DangXuatTaiKhoan">Đăng xuất tài khoản</a>
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Right Elements -->
+                        <div class="flex-col hide-for-medium flex-right">
+                            <ul class="header-nav header-nav-main nav nav-right  nav-uppercase">
+                                <li class="header-divider"></li>
+                                <li class="cart-item has-icon">
+                                    <div class="header-button">
+                                        <a href="/Users/ViewGioHang" class="header-cart-link off-canvas-toggle nav-top-link icon primary button round is-small" data-open="#cart-popup" data-class="off-canvas-cart" title="Giỏ hàng" data-pos="right">
+                                            <span class="header-cart-title">
+                                                <span class="cart-price">
+                                                    <span class="woocommerce-Price-amount amount">
+                                                        <bdi>@String.Format("{0:#,#.#}", ViewBag.tongTien)&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="wide-nav" class="header-bottom wide-nav nav-dark flex-has-center hide-for-medium">
+                    <div class="flex-row container">
+                        <div class="flex-col hide-for-medium flex-center">
+                            <div id="menu-item-5959" class="dropdown-mn">
+                                <a href="/Users/TrangChu" class="dropbtn1">TRANG CHỦ</a>
+                                <a href="/Users/ViewVeShopwatch" class="dropbtn1">VỀ SHOPWATCH</a>
+                                <div class="dropdown">
+                                    <a href="/Users/ViewDanhSach" class="dropbtn">THƯƠNG HIỆU <i class="fa fa-caret-down"></i></a>
+                                    <div class="dropdown-content">
+                                        <a href="/Users/ViewDanhSach?searchString=ORIENT">ĐỒNG HỒ ORIENT</a>
+                                        <a href="/Users/ViewDanhSach?searchString=SEIKO">ĐỒNG HỒ SEIKO</a>
+                                        <a href="/Users/ViewDanhSach?searchString=CASIO">ĐỒNG HỒ CASIO</a>
+                                        <a href="/Users/ViewDanhSach?searchString=SRWATCH">ĐỒNG HỒ SRWATCH</a>
+                                        <a href="/Users/ViewDanhSach?searchString=BENTLEY">ĐỒNG HỒ BENTLEY</a>
+                                        <a href="/Users/ViewDanhSach?searchString=OP">ĐỒNG HỒ OP</a>
+                                        <a href="/Users/ViewDanhSach?searchString=CITIZEN">ĐỒNG HỒ CITIZEN</a>
+                                    </div>
+                                </div>
+                                <a href="/Users/ViewDanhSach?searchString=Nam" class="dropbtn1">ĐỒNG HỒ NAM</a>
+                                <a href="/Users/ViewDanhSach?searchString=Nữ" class="dropbtn1">ĐỒNG HỒ NỮ</a>
+                                <div class="dropdown">
+                                    <button class="dropbtn">PHỤ KIỆN <i class="fa fa-caret-down"></i></button>
+                                    <div class="dropdown-content">
+                                        <a href="#">HỘP ĐỰNG</a>
+                                        <a href="#">DÂY ĐỒNG HỒ</a>
+                                    </div>
+                                </div>
+                                <a href="/Users/ViewLienHe" class="dropbtn1">LIÊN HỆ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bg-container fill">
+                    <div class="header-bg-image fill"></div>
+                    <div class="header-bg-color fill"></div>
+                </div>
+            </div>
+        </header>
+
+
+        <main id="main" class="" style="min-height: 1000px;">
+            <div id="content" class="content-area page-wrapper" role="main">
+                <div class="row row-main">
+                    <div class="large-12 col">
+                        <div class="col-inner">
+                            <p>
+                                Dù mới được thành lập trong vài năm gần đây nhưng ShopWatch đã, đang và sẽ vươn lên giữ vị trí số 1 trong những cửa hàng bán lẽ đồng hồ tại Việt Nam, tiếp tục sứ mệnh mang vẻ đẹp, tinh hoa của những chiếc đồng hồ chính hãng
+                                cao cấp của các thương hiệu đồng hồ nổi tiếng đến với những người đam mê đồng hồ tại Việt Nam.
+                            </p>
+                            <p>
+                                Với mong muốn đem đến khách hàng những giá trị cao nhất, <strong>ShopWatch</strong> không chỉ bán những chiếc đồng hồ chính hãng tốt nhất tới khách hàng mà còn đem tới khách hàng những chế độ bảo hành,
+                                hậu mãi mà khó có cửa hàng nào đáp ứng được.
+                            </p>
+                            <p>
+                                <picture class="alignnone size-full wp-image-25007 sp-no-webp">
+                                    <img src="~/Content/fileimage/anh2.jpg" class="alignnone size-full wp-image-25007 sp-no-webp" alt="" height="1151" width="2048">
+                                </picture>
+                            </p>
+                            <h2>ShopWatch và những quan điểm trong kinh doanh</h2>
+                            <p>
+                                Ngay từ những ngày đầu thành lập, ShopWatch đã xác định rõ quan điểm kinh doanh: “Khách hàng, chất lượng và uy tín phải được đưa lên hàng đầu”. Điều này đều được các cán bộ, nhân viên của ShopWatch hiểu rõ và tuân thủ tuyệt
+                                đối.
+                            </p>
+                            <ul>
+                                <li>Tuyệt đối không bán hàng giải, hàng nhái, hàng kém chất lượng, không rõ nguồn gốc, xuất xứ … cho khách hàng.</li>
+                                <li>Cung cấp cho quý khách hàng những sản phẩm tốt nhất với giá cả cạnh tranh cùng với những dịch vụ hoàn hảo nhất.</li>
+                                <li>Phải đặt chữ TÍN lên hàng đầu, không vì lợi nhuận mà lừa đối khách hàng.</li>
+                                <li>Đặt mình vào địa vị khách hàng để đưa ra những quyết định, chính sách hợp lý nhất.</li>
+                            </ul>
+                            <p>
+                                <picture class="alignnone size-full wp-image-25004 sp-no-webp">
+                                    <img src="~/Content/fileimage/anh1.jpg" class="alignnone size-full wp-image-25004 sp-no-webp" alt="" height="2048" width="1152">
+                                </picture>
+                            </p>
+                            <h2>Chính sách bán hàng và bảo hành tại ShopWatch</h2>
+                            <p>Với những quan điểm khắc khe trong kinh doanh, chính vì vậy mà chính sách bán hàng cũng như bảo hành của ShopWatch cũng có những quy định riêng.</p>
+                            <h3>Chính sách bán hàng</h3>
+                            <ul>
+                                <li>Sản phẩm bán ra là hàng chính hãng 100%. Phát hiện hàng nhái hoàn tiền gấp 10 lần giá trị sản phẩm.</li>
+                                <li>Giá bán luôn thấp hơn giá thị trường. Với việc chú trọng việc bán online nên ShopWatch giúp khách hàng tiết kiệm lên tới 10 – 20% giá trị sản phẩm.</li>
+                                <li>Nhận ship CODE miễn phí toàn quốc và khuyến kích khách hàng đặt hàng online.</li>
+                            </ul>
+                            <p>
+                                <picture class="alignnone size-full wp-image-25006 sp-no-webp">
+                                    <img src="~/Content/fileimage/anh3.jpg" class="alignnone size-full wp-image-25006 sp-no-webp" alt="" height="1152" width="2048">
+                                </picture>
+                            </p>
+                            <h3>Chính sách bảo hành</h3>
+                            <p>Thấu hiểu tâm lý khách hàng, ngoài chính sách bảo hành chính hãng do nhà sản xuất quy định, ShopWatch còn mang tới những gói dịch vụ bảo hành tốt nhất với từng nhu cầu của khách hàng.</p>
+                            <ul>
+                                <li>
+                                    Bảo hành tiêu chuẩn: Thời hạn bảo hành trong vòng 1 năm (tương đương 12 tháng). Với gói bảo hành này, bạn sẽ được thay pin miễn phí đối với các dòng máy Quartz và hỗ trợ sửa chữa miễn phí với các lỗi nhiễm từ, sai số, ngấm
+                                    nước.
+                                </li>
+                                <li>
+                                    Bảo hành vàng: Đây là gói bảo hành phải trả phí và để sở hữu gói bảo hàng này bạn chỉ cần bỏ ra 300.000 VNĐ. Thời hạn bảo hành của gói này là 5 năm (tương đương 60 tháng). Với gói bảo hành này, bạn sẽ được miễn phí: thay
+                                    pin (đối với máy Quartz); sửa chữa lỗi nhiễm từ, sai số, ngấm nước; đánh bóng mặt đồng hồ; bảo dưỡng lau dầu và hỗ trợ 50% chi phi thay thế linh kiện bên trong.
+                                </li>
+                                <li>
+                                    Bảo hành kim cương: Thời hạn bảo hành 5 năm (tương đương 60 tháng). Giống như gói bảo hành vàng, bạn cũng sẽ được miễn phí thay pin, sửa lỗi nhiễm từ, sai số, ngấm nước, đánh bóng mặt đồng hồ, bảo dưỡng lau dầu. Tuy nhiên,
+                                    điểm khác biệt lớn nhất đó chính là bạn được miễn phí 100% chi phí thay thế linh kiện bên trong và được hỗ trợ 50% chi phí thay thế linh kiện bên ngoài.
+                                </li>
+                            </ul>
+                            <p>Nếu bạn đã chọn mua và được hưởng những chính sách bán hàng – bảo hành của ShopWatch dù chỉ một lần, chúng tôi tin và hy vọng quý khách hàng sẽ cảm thấy hài lòng.</p>
+                            <p style="text-align: center;">
+                                <picture class="alignnone size-full wp-image-25006 sp-no-webp">
+                                    <img src="~/Content/fileimage/anh3.jpg" class="alignnone size-full wp-image-25006 sp-no-webp" alt="" height="1152" width="2048">
+                                </picture>
+                            </p>
+                            <h3>ShopWatch – Địa chỉ bán đồng hồ chính hãng tin cậy</h3>
+                            <p>
+                                Hiện nay, ShopWatch chỉ có duy nhất một show-room tại địa chỉ: 218 Lê Duẩn – Hà Nội. Mọi thông tin địa chỉ khác đều là cửa hàng giả mạo. Chính vì thế, để đảm bảo quyền lợi của chính mình, quý khách hàng nên đến trực tiếp show-room
+                                của ShopWatch và chỉ nên đặt hàng online thông website: <strong>shopwatch.vn</strong> hoặc hotline <strong>08.6262.9999</strong>
+                            </p>
+                            <p>
+                                Với mục tiêu trở thành nhà bán lẻ đồng hồ chính hãng hàng đầu Việt Nam, ShopWatch đã, đang và sẽ xây dựng thêm nhiều hệ thống show-room trên toàn quốc để có thể mang tới khách hàng đồng hồ thật, giá trị thật.
+                            </p>
+                            <p>
+                                Hiện tại, ShopWatch đang kinh doanh một số dòng sản phẩm chủ lực điển hình như: Đồng hồ Orient &#8211; Seiko &#8211; Citizen &#8211; Daniel Wellington &#8211; Sunrise. Quý khách có thể qua thăm cửa hàng ShopWatch tại: 218 Lê
+                                Duẩn &#8211; Hà Nội để được trải nghiệm thêm nhiều sản phẩm đồng hồ mới.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer" class="footer-wrapper">
+            <!-- FOOTER 1 -->
+            <div class="footer-widgets footer footer-1">
+                <div class="row large-columns-3 mb-0">
+                    <div id="custom_html-3" class="widget_text col pb-0 widget widget_custom_html">
+                        <span class="widget-title">Giới thiệu</span>
+                        <div class="is-divider small"></div>
+                        <div class="textwidget custom-html-widget">
+                            <img class="aligncenter size-full wp-image-5972" src="~/Content/fileimage/logoHeader.png" alt="" width="1040" height="240" />
+                        </div>
+                    </div>
+                    <div id="custom_html-7" class="widget_text col pb-0 widget widget_custom_html">
+                        <span class="widget-title">Thông tin liên hệ</span>
+                        <div class="is-divider small"></div>
+                        <div class="textwidget custom-html-widget">
+                            <ul>
+                                <li><strong>Showroom</strong>: Số 218 Lê Duẩn - Hà Nội</li>
+                                <li><strong>Hotline</strong>: <strong>08.6262.9999</strong></li>
+                                <li><strong>Website</strong>: shopwatch.vn</li>
+                                <li><strong>Email</strong> : thangpham5920@gmail.com</li>
+                                <li><strong>Giờ mở cửa</strong>: 9h00- 19h30</li>
+                                <li>Tất cả các ngày trong tuần</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="custom_html-6" class="widget_text col pb-0 widget widget_custom_html">
+                        <span class="widget-title">Chính sách dịch vụ</span>
+                        <div class="is-divider small"></div>
+                        <div class="textwidget custom-html-widget">
+                            <li>Giới thiệu ShopWatch</li>
+                            <li>Chính sách bảo mật</li>
+                            <li>Điều khoản dịch vụ</li>
+                            <li>Chính sách bảo hành</li>
+                            <li>Liên hệ tư vấn</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script type='text/javascript' id='woocommerce-js-extra'>
+        /* <![CDATA[ */
+        var woocommerce_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' id='wc-cart-fragments-js-extra'>
+        /* <![CDATA[ */
+        var wc_cart_fragments_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+            "cart_hash_key": "wc_cart_hash_40e37678e22b638d02de3f028657e170",
+            "fragment_name": "wc_fragments_40e37678e22b638d02de3f028657e170",
+            "request_timeout": "5000"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' id='rocket-browser-checker-js-after'>
+        "use strict";
+        var _createClass = function() {
+            function defineProperties(target, props) {
+                for (var i = 0; i < props.length; i++) {
+                    var descriptor = props[i];
+                    descriptor.enumerable = descriptor.enumerable || !1, descriptor.configurable = !0, "value" in descriptor && (descriptor.writable = !0), Object.defineProperty(target, descriptor.key, descriptor)
+                }
+            }
+            return function(Constructor, protoProps, staticProps) {
+                return protoProps && defineProperties(Constructor.prototype, protoProps), staticProps && defineProperties(Constructor, staticProps), Constructor
+            }
+        }();
+
+        function _classCallCheck(instance, Constructor) {
+            if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function")
+        }
+        var RocketBrowserCompatibilityChecker = function() {
+            function RocketBrowserCompatibilityChecker(options) {
+                _classCallCheck(this, RocketBrowserCompatibilityChecker), this.passiveSupported = !1, this._checkPassiveOption(this), this.options = !!this.passiveSupported && options
+            }
+            return _createClass(RocketBrowserCompatibilityChecker, [{
+                key: "_checkPassiveOption",
+                value: function(self) {
+                    try {
+                        var options = {get passive() {
+                                return !(self.passiveSupported = !0)
+                            }
+                        };
+                        window.addEventListener("test", null, options), window.removeEventListener("test", null, options)
+                    } catch (err) {
+                        self.passiveSupported = !1
+                    }
+                }
+            }, {
+                key: "initRequestIdleCallback",
+                value: function() {
+                    !1 in window && (window.requestIdleCallback = function(cb) {
+                        var start = Date.now();
+                        return setTimeout(function() {
+                            cb({
+                                didTimeout: !1,
+                                timeRemaining: function() {
+                                    return Math.max(0, 50 - (Date.now() - start))
+                                }
+                            })
+                        }, 1)
+                    }), !1 in window && (window.cancelIdleCallback = function(id) {
+                        return clearTimeout(id)
+                    })
+                }
+            }, {
+                key: "isDataSaverModeOn",
+                value: function() {
+                    return "connection" in navigator && !0 === navigator.connection.saveData
+                }
+            }, {
+                key: "supportsLinkPrefetch",
+                value: function() {
+                    var elem = document.createElement("link");
+                    return elem.relList && elem.relList.supports && elem.relList.supports("prefetch") && window.IntersectionObserver && "isIntersecting" in IntersectionObserverEntry.prototype
+                }
+            }, {
+                key: "isSlowConnection",
+                value: function() {
+                    return "connection" in navigator && "effectiveType" in navigator.connection && ("2g" === navigator.connection.effectiveType || "slow-2g" === navigator.connection.effectiveType)
+                }
+            }]), RocketBrowserCompatibilityChecker
+        }();
+    </script>
+    <script type='text/javascript' id='rocket-delay-js-js-after'>
+        (function() {
+            "use strict";
+            var e = function() {
+                function n(e, t) {
+                    for (var r = 0; r < t.length; r++) {
+                        var n = t[r];
+                        n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(e, n.key, n)
+                    }
+                }
+                return function(e, t, r) {
+                    return t && n(e.prototype, t), r && n(e, r), e
+                }
+            }();
+
+            function n(e, t) {
+                if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function")
+            }
+            var t = function() {
+                function r(e, t) {
+                    n(this, r), this.attrName = "data-rocketlazyloadscript", this.browser = t, this.options = this.browser.options, this.triggerEvents = e, this.userEventListener = this.triggerListener.bind(this)
+                }
+                return e(r, [{
+                    key: "init",
+                    value: function() {
+                        this._addEventListener(this)
+                    }
+                }, {
+                    key: "reset",
+                    value: function() {
+                        this._removeEventListener(this)
+                    }
+                }, {
+                    key: "_addEventListener",
+                    value: function(t) {
+                        this.triggerEvents.forEach(function(e) {
+                            return window.addEventListener(e, t.userEventListener, t.options)
+                        })
+                    }
+                }, {
+                    key: "_removeEventListener",
+                    value: function(t) {
+                        this.triggerEvents.forEach(function(e) {
+                            return window.removeEventListener(e, t.userEventListener, t.options)
+                        })
+                    }
+                }, {
+                    key: "_loadScriptSrc",
+                    value: function() {
+                        var r = this,
+                            e = document.querySelectorAll("script[" + this.attrName + "]");
+                        0 !== e.length && Array.prototype.slice.call(e).forEach(function(e) {
+                            var t = e.getAttribute(r.attrName);
+                            e.setAttribute("src", t), e.removeAttribute(r.attrName)
+                        }), this.reset()
+                    }
+                }, {
+                    key: "triggerListener",
+                    value: function() {
+                        this._loadScriptSrc(), this._removeEventListener(this)
+                    }
+                }], [{
+                    key: "run",
+                    value: function() {
+                        RocketBrowserCompatibilityChecker && new r(["keydown", "mouseover", "touchmove", "touchstart", "wheel"], new RocketBrowserCompatibilityChecker({
+                            passive: !0
+                        })).init()
+                    }
+                }]), r
+            }();
+            t.run();
+        }());
+    </script>
+    <script type='text/javascript' id='rocket-preload-links-js-extra'>
+        /* <![CDATA[ */
+        var RocketPreloadLinksConfig = {
+            "excludeUris": "\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/thanh-toan(.*)|\/gio-hang|\/tai-khoan(.*)|\/wc-api\/v(.*)|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin|\/logout|\/wp-login.php",
+            "usesTrailingSlash": "",
+            "imageExt": "jpg|jpeg|gif|png|tiff|bmp|webp|avif",
+            "fileExt": "jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm",
+            "siteUrl": "https:\/\/shopwatch.vn",
+            "onHoverDelay": "100",
+            "rateThrottle": "3"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' id='rocket-preload-links-js-after'>
+        (function() {
+            "use strict";
+            var r = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
+                    return typeof e
+                } : function(e) {
+                    return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
+                },
+                e = function() {
+                    function i(e, t) {
+                        for (var n = 0; n < t.length; n++) {
+                            var i = t[n];
+                            i.enumerable = i.enumerable || !1, i.configurable = !0, "value" in i && (i.writable = !0), Object.defineProperty(e, i.key, i)
+                        }
+                    }
+                    return function(e, t, n) {
+                        return t && i(e.prototype, t), n && i(e, n), e
+                    }
+                }();
+
+            function i(e, t) {
+                if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function")
+            }
+            var t = function() {
+                function n(e, t) {
+                    i(this, n), this.browser = e, this.config = t, this.options = this.browser.options, this.prefetched = new Set, this.eventTime = null, this.threshold = 1111, this.numOnHover = 0
+                }
+                return e(n, [{
+                    key: "init",
+                    value: function() {
+                        !this.browser.supportsLinkPrefetch() || this.browser.isDataSaverModeOn() || this.browser.isSlowConnection() || (this.regex = {
+                            excludeUris: RegExp(this.config.excludeUris, "i"),
+                            images: RegExp(".(" + this.config.imageExt + ")$", "i"),
+                            fileExt: RegExp(".(" + this.config.fileExt + ")$", "i")
+                        }, this._initListeners(this))
+                    }
+                }, {
+                    key: "_initListeners",
+                    value: function(e) {
+                        -1 < this.config.onHoverDelay && document.addEventListener("mouseover", e.listener.bind(e), e.listenerOptions), document.addEventListener("mousedown", e.listener.bind(e), e.listenerOptions), document.addEventListener("touchstart", e.listener.bind(e), e.listenerOptions)
+                    }
+                }, {
+                    key: "listener",
+                    value: function(e) {
+                        var t = e.target.closest("a"),
+                            n = this._prepareUrl(t);
+                        if (null !== n) switch (e.type) {
+                            case "mousedown":
+                            case "touchstart":
+                                this._addPrefetchLink(n);
+                                break;
+                            case "mouseover":
+                                this._earlyPrefetch(t, n, "mouseout")
+                        }
+                    }
+                }, {
+                    key: "_earlyPrefetch",
+                    value: function(t, e, n) {
+                        var i = this,
+                            r = setTimeout(function() {
+                                if (r = null, 0 === i.numOnHover) setTimeout(function() {
+                                    return i.numOnHover = 0
+                                }, 1e3);
+                                else if (i.numOnHover > i.config.rateThrottle) return;
+                                i.numOnHover++, i._addPrefetchLink(e)
+                            }, this.config.onHoverDelay);
+                        t.addEventListener(n, function e() {
+                            t.removeEventListener(n, e, {
+                                passive: !0
+                            }), null !== r && (clearTimeout(r), r = null)
+                        }, {
+                            passive: !0
+                        })
+                    }
+                }, {
+                    key: "_addPrefetchLink",
+                    value: function(i) {
+                        return this.prefetched.add(i.href), new Promise(function(e, t) {
+                            var n = document.createElement("link");
+                            n.rel = "prefetch", n.href = i.href, n.onload = e, n.onerror = t, document.head.appendChild(n)
+                        }).catch(function() {})
+                    }
+                }, {
+                    key: "_prepareUrl",
+                    value: function(e) {
+                        if (null === e || "object" !== (void 0 === e ? "undefined" : r(e)) || !1 in e || -1 === ["http:", "https:"].indexOf(e.protocol)) return null;
+                        var t = e.href.substring(0, this.config.siteUrl.length),
+                            n = this._getPathname(e.href, t),
+                            i = {
+                                original: e.href,
+                                protocol: e.protocol,
+                                origin: t,
+                                pathname: n,
+                                href: t + n
+                            };
+                        return this._isLinkOk(i) ? i : null
+                    }
+                }, {
+                    key: "_getPathname",
+                    value: function(e, t) {
+                        var n = t ? e.substring(this.config.siteUrl.length) : e;
+                        return n.startsWith("index.html") || (n = "/" + n), this._shouldAddTrailingSlash(n) ? n + "/" : n
+                    }
+                }, {
+                    key: "_shouldAddTrailingSlash",
+                    value: function(e) {
+                        return this.config.usesTrailingSlash && !e.endsWith("index.html") && !this.regex.fileExt.test(e)
+                    }
+                }, {
+                    key: "_isLinkOk",
+                    value: function(e) {
+                        return null !== e && "object" === (void 0 === e ? "undefined" : r(e)) && (!this.prefetched.has(e.href) && e.origin === this.config.siteUrl && -1 === e.href.indexOf("?") && -1 === e.href.indexOf("#") && !this.regex.excludeUris.test(e.href) && !this.regex.images.test(e.href))
+                    }
+                }], [{
+                    key: "run",
+                    value: function() {
+                        "undefined" != typeof RocketPreloadLinksConfig && new n(new RocketBrowserCompatibilityChecker({
+                            capture: !0,
+                            passive: !0
+                        }), RocketPreloadLinksConfig).init()
+                    }
+                }]), n
+            }();
+            t.run();
+        }());
+    </script>
+    <script type='text/javascript' id='flatsome-js-js-extra'>
+        /* <![CDATA[ */
+        var flatsomeVars = {
+            "ajaxurl": "https:\/\/shopwatch.vn\/wp-admin\/admin-ajax.php",
+            "rtl": "",
+            "sticky_height": "70",
+            "assets_url": "https:\/\/shopwatch.vn\/wp-content\/themes\/flatsome\/assets\/js\/",
+            "lightbox": {
+                "close_markup": "<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>",
+                "close_btn_inside": false
+            },
+            "user": {
+                "can_edit_pages": false
+            },
+            "i18n": {
+                "mainMenu": "Main Menu"
+            },
+            "options": {
+                "cookie_notice_version": "1",
+                "swatches_layout": false,
+                "swatches_box_select_event": false,
+                "swatches_box_behavior_selected": false,
+                "swatches_box_update_urls": "1",
+                "swatches_box_reset": false,
+                "swatches_box_reset_extent": false,
+                "swatches_box_reset_time": 300,
+                "search_result_latency": "0"
+            },
+            "is_mini_cart_reveal": ""
+        };
+        /* ]]> */
+    </script>
+    <style id='wp-block-library-inline-css' type='text/css'>
+         :root {
+            --wp-admin-theme-color: #007cba;
+            --wp-admin-theme-color-darker-10: #006ba1;
+            --wp-admin-theme-color-darker-20: #005a87;
+            --wp-admin-border-width-focus: 2px
+        }
+
+        media (-webkit-min-device-pixel-ratio:2),
+        (min-resolution:192dpi) {
+             :root {
+                --wp-admin-border-width-focus: 1.5px
+            }
+        }
+
+         :root .has-pale-pink-background-color {
+            background-color: #f78da7
+        }
+
+         :root .has-vivid-red-background-color {
+            background-color: #cf2e2e
+        }
+
+         :root .has-luminous-vivid-orange-background-color {
+            background-color: #ff6900
+        }
+
+         :root .has-luminous-vivid-amber-background-color {
+            background-color: #fcb900
+        }
+
+         :root .has-light-green-cyan-background-color {
+            background-color: #7bdcb5
+        }
+
+         :root .has-vivid-green-cyan-background-color {
+            background-color: #00d084
+        }
+
+         :root .has-pale-cyan-blue-background-color {
+            background-color: #8ed1fc
+        }
+
+         :root .has-vivid-cyan-blue-background-color {
+            background-color: #0693e3
+        }
+
+         :root .has-vivid-purple-background-color {
+            background-color: #9b51e0
+        }
+
+         :root .has-white-background-color {
+            background-color: #fff
+        }
+
+         :root .has-very-light-gray-background-color {
+            background-color: #eee
+        }
+
+         :root .has-cyan-bluish-gray-background-color {
+            background-color: #abb8c3
+        }
+
+         :root .has-very-dark-gray-background-color {
+            background-color: #313131
+        }
+
+         :root .has-black-background-color {
+            background-color: #000
+        }
+
+         :root .has-pale-pink-color {
+            color: #f78da7
+        }
+
+         :root .has-vivid-red-color {
+            color: #cf2e2e
+        }
+
+         :root .has-luminous-vivid-orange-color {
+            color: #ff6900
+        }
+
+         :root .has-luminous-vivid-amber-color {
+            color: #fcb900
+        }
+
+         :root .has-light-green-cyan-color {
+            color: #7bdcb5
+        }
+
+         :root .has-vivid-green-cyan-color {
+            color: #00d084
+        }
+
+         :root .has-pale-cyan-blue-color {
+            color: #8ed1fc
+        }
+
+         :root .has-vivid-cyan-blue-color {
+            color: #0693e3
+        }
+
+         :root .has-vivid-purple-color {
+            color: #9b51e0
+        }
+
+         :root .has-white-color {
+            color: #fff
+        }
+
+         :root .has-very-light-gray-color {
+            color: #eee
+        }
+
+         :root .has-cyan-bluish-gray-color {
+            color: #abb8c3
+        }
+
+         :root .has-very-dark-gray-color {
+            color: #313131
+        }
+
+         :root .has-black-color {
+            color: #000
+        }
+
+         :root .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: linear-gradient(135deg, #0693e3, #9b51e0)
+        }
+
+         :root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
+            background: linear-gradient(135deg, #00d084, #0693e3)
+        }
+
+         :root .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: linear-gradient(135deg, #7adcb4, #00d082)
+        }
+
+         :root .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: linear-gradient(135deg, #fcb900, #ff6900)
+        }
+
+         :root .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: linear-gradient(135deg, #ff6900, #cf2e2e)
+        }
+
+         :root .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: linear-gradient(135deg, #eee, #a9b8c3)
+        }
+
+         :root .has-cool-to-warm-spectrum-gradient-background {
+            background: linear-gradient(135deg, #4aeadc, #9778d1 20%, #cf2aba 40%, #ee2c82 60%, #fb6962 80%, #fef84c)
+        }
+
+         :root .has-blush-light-purple-gradient-background {
+            background: linear-gradient(135deg, #ffceec, #9896f0)
+        }
+
+         :root .has-blush-bordeaux-gradient-background {
+            background: linear-gradient(135deg, #fecda5, #fe2d2d 50%, #6b003e)
+        }
+
+         :root .has-purple-crush-gradient-background {
+            background: linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe)
+        }
+
+         :root .has-luminous-dusk-gradient-background {
+            background: linear-gradient(135deg, #ffcb70, #c751c0 50%, #4158d0)
+        }
+
+         :root .has-hazy-dawn-gradient-background {
+            background: linear-gradient(135deg, #faaca8, #dad0ec)
+        }
+
+         :root .has-pale-ocean-gradient-background {
+            background: linear-gradient(135deg, #fff5cb, #b6e3d4 50%, #33a7b5)
+        }
+
+         :root .has-electric-grass-gradient-background {
+            background: linear-gradient(135deg, #caf880, #71ce7e)
+        }
+
+         :root .has-subdued-olive-gradient-background {
+            background: linear-gradient(135deg, #fafae1, #67a671)
+        }
+
+         :root .has-atomic-cream-gradient-background {
+            background: linear-gradient(135deg, #fdd79a, #004a59)
+        }
+
+         :root .has-nightshade-gradient-background {
+            background: linear-gradient(135deg, #330968, #31cdcf)
+        }
+
+         :root .has-midnight-gradient-background {
+            background: linear-gradient(135deg, #020381, #2874fc)
+        }
+
+        .has-small-font-size {
+            font-size: .8125em
+        }
+
+        .has-normal-font-size,
+        .has-regular-font-size {
+            font-size: 1em
+        }
+
+        .has-medium-font-size {
+            font-size: 1.25em
+        }
+
+        .has-large-font-size {
+            font-size: 2.25em
+        }
+
+        .has-huge-font-size,
+        .has-larger-font-size {
+            font-size: 2.625em
+        }
+
+        .has-text-align-center {
+            text-align: center
+        }
+
+        .has-text-align-left {
+            text-align: left
+        }
+
+        .has-text-align-right {
+            text-align: right
+        }
+
+        #end-resizable-editor-section {
+            display: none
+        }
+
+        .aligncenter {
+            clear: both
+        }
+
+        .items-justified-left {
+            justify-content: flex-start
+        }
+
+        .items-justified-center {
+            justify-content: center
+        }
+
+        .items-justified-right {
+            justify-content: flex-end
+        }
+
+        .items-justified-space-between {
+            justify-content: space-between
+        }
+
+        .screen-reader-text {
+            border: 0;
+            clip: rect(1px, 1px, 1px, 1px);
+            -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+            word-wrap: normal!important
+        }
+
+        .screen-reader-text:focus {
+            background-color: #ddd;
+            clip: auto!important;
+            -webkit-clip-path: none;
+            clip-path: none;
+            color: #444;
+            display: block;
+            font-size: 1em;
+            height: auto;
+            left: 5px;
+            line-height: normal;
+            padding: 15px 23px 14px;
+            text-decoration: none;
+            top: 5px;
+            width: auto;
+            z-index: 100000
+        }
+    </style>
+    <script>
+        window.lazyLoadOptions = {
+            elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",
+            data_src: "lazy-src",
+            data_srcset: "lazy-srcset",
+            data_sizes: "lazy-sizes",
+            class_loading: "lazyloading",
+            class_loaded: "lazyloaded",
+            threshold: 300,
+            callback_loaded: function(element) {
+                if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") {
+                    if (element.classList.contains("lazyloaded")) {
+                        if (typeof window.jQuery != "undefined") {
+                            if (jQuery.fn.fitVids) {
+                                jQuery(element).parent().fitVids()
+                            }
+                        }
+                    }
+                }
+            }
+        };
+        window.addEventListener('LazyLoad::Initialized', function(e) {
+            var lazyLoadInstance = e.detail.instance;
+            if (window.MutationObserver) {
+                var observer = new MutationObserver(function(mutations) {
+                    var image_count = 0;
+                    var iframe_count = 0;
+                    var rocketlazy_count = 0;
+                    mutations.forEach(function(mutation) {
+                        for (i = 0; i < mutation.addedNodes.length; i++) {
+                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                                continue
+                            }
+                            if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                                continue
+                            }
+                            images = mutation.addedNodes[i].getElementsByTagName('img');
+                            is_image = mutation.addedNodes[i].tagName == "IMG";
+                            iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+                            is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
+                            rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+                            image_count += images.length;
+                            iframe_count += iframes.length;
+                            rocketlazy_count += rocket_lazy.length;
+                            if (is_image) {
+                                image_count += 1
+                            }
+                            if (is_iframe) {
+                                iframe_count += 1
+                            }
+                        }
+                    });
+                    if (image_count > 0 || iframe_count > 0 || rocketlazy_count > 0) {
+                        lazyLoadInstance.update()
+                    }
+                });
+                var b = document.getElementsByTagName("body")[0];
+                var config = {
+                    childList: !0,
+                    subtree: !0
+                };
+                observer.observe(b, config)
+            }
+        }, !1)
+    </script>
+    <script>
+        "use strict";
+        var wprRemoveCPCSS = function wprRemoveCPCSS() {
+            var elem;
+            document.querySelector('link[data-rocket-async="style"][rel="preload"]') ? setTimeout(wprRemoveCPCSS, 200) : (elem = document.getElementById("rocket-critical-css")) && "remove" in elem && elem.remove()
+        };
+        window.addEventListener ? window.addEventListener("load", wprRemoveCPCSS) : window.attachEvent && window.attachEvent("onload", wprRemoveCPCSS);
+    </script>
+    <noscript><link rel="stylesheet" href="~/Content/bootstrapMau.css" media="all" data-minify="1" /></noscript>
+</body>
+
+</html>

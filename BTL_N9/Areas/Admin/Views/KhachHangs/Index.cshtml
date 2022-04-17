@@ -1,0 +1,95 @@
+﻿@model PagedList.IPagedList<BTL_N9.Models.KhachHang>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Danh sách khách hàng</h1>
+        </div>
+    </div>
+    <div class="row">       
+        <div class="input-group col-md-12">
+            @using (Html.BeginForm())
+            {
+                <p>
+                    Tìm khách hàng: @Html.TextBox("SeachString", ViewBag.CurrentFilter as string)
+                    <input type="submit" value="Tìm" />
+                    <span style="position: absolute; right: 0;">@Html.ActionLink("Thêm", "Create", "KhachHangs", new { @class = "btn btn-success fa fa-plus" })</span>
+                </p>             
+            }
+        </div>
+    </div>
+    <table class="table table-striped table-bordered" id="myTable" style="margin-top:15px;">
+        <thead style="background-color:lightskyblue;">
+            <tr>
+                <th>
+                    @Html.ActionLink("Mã khách hàng", "Index", new { sortOrder = ViewBag.SapTheoMaKhachHang, currentFilter = ViewBag.CurrentFilter })
+                </th>
+                <th>
+                    Tên đăng nhập
+                </th>
+                <th>
+                    Mật khẩu
+                </th>
+                <th>
+                    @Html.ActionLink("Tên khách hàng", "Index", new { sortOrder = ViewBag.SapTheoTen, currentFilter = ViewBag.CurrentFilter })
+                </th>
+                <th>
+                    @Html.ActionLink("Địa chỉ", "Index", new { sortOrder = ViewBag.SapTheoDiaChi, currentFilter = ViewBag.CurrentFilter })
+                </th>
+                <th>
+                    Số điện thoại
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Thao tác
+                </th>
+            </tr>
+        </thead>
+
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <strong>@Html.DisplayFor(modelItem => item.MaKhachHang)</strong>
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenDangNhap)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MatKhau)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenKhachHang)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DiaChi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoDienThoai)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.ActionLink("Sửa", "Edit", "KhachHangs", new { id = item.MaKhachHang.Trim() }, new { @class = "btn btn-primary glyphicon glyphicon-edit" }) |
+                    @Html.ActionLink("Chi tiết", "Details", "KhachHangs", new { id = item.MaKhachHang.Trim() }, new { @class = "btn btn-default glyphicon glyphicon-eye-open" }) |
+                    @Html.ActionLink("Xóa", "Delete", "KhachHangs", new { id = item.MaKhachHang.Trim() }, new { @class = "btn btn-danger glyphicon glyphicon-remove" })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+    Trang @(Model.PageCount<Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortOrder = ViewBag.CurrentSort, currentFiler = ViewBag.CurrentFilter }))
+</div>

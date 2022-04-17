@@ -1,0 +1,259 @@
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\BTL_N9.dll.config
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\BTL_N9.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\BTL_N9.pdb
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\csc.exe
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\csc.exe.config
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\csc.rsp
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\csi.exe
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\csi.exe.config
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\csi.rsp
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\Microsoft.Managed.Core.targets
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.AppContext.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Collections.Immutable.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Console.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Globalization.Calendars.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.IO.Compression.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.IO.FileSystem.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Net.Http.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Net.Sockets.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Reflection.Metadata.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.ValueTuple.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Xml.XmlDocument.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Xml.XPath.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\vbc.exe
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\vbc.exe.config
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\vbc.rsp
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\VBCSCompiler.exe
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\roslyn\VBCSCompiler.exe.config
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\Antlr3.Runtime.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\EntityFramework.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\EntityFramework.SqlServer.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\Microsoft.Web.Infrastructure.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\Newtonsoft.Json.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\PagedList.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\PagedList.Mvc.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.Helpers.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.Mvc.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.Optimization.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.Razor.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.WebPages.Deployment.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.WebPages.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.WebPages.Razor.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\WebGrease.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\EntityFramework.xml
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\EntityFramework.SqlServer.xml
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\PagedList.xml
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\PagedList.Mvc.xml
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.Helpers.xml
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.Mvc.xml
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.Optimization.xml
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.Razor.xml
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.WebPages.xml
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.WebPages.Deployment.xml
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\System.Web.WebPages.Razor.xml
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\Newtonsoft.Json.xml
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\Antlr3.Runtime.pdb
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\obj\Debug\BTL_N9.csproj.CoreCompileInputs.cache
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\obj\Debug\BTL_N9.csproj.CopyComplete
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\obj\Debug\BTL_N9.dll
+E:\BTL_WEB\BTL_SHOPWATCH_USERS\BTL_N9\obj\Debug\BTL_N9.pdb
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\BTL_N9.dll.config
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\BTL_N9.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\BTL_N9.pdb
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\csc.exe
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\csc.exe.config
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\csc.rsp
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\csi.exe
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\csi.exe.config
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\csi.rsp
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.AppContext.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Collections.Immutable.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Console.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Globalization.Calendars.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.IO.Compression.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.IO.FileSystem.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Net.Http.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Net.Sockets.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Reflection.Metadata.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.ValueTuple.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Xml.XPath.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\vbc.exe
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\vbc.exe.config
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\vbc.rsp
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\VBCSCompiler.exe
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\VBCSCompiler.exe.config
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Antlr3.Runtime.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\EntityFramework.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\EntityFramework.SqlServer.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Microsoft.Web.Infrastructure.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Newtonsoft.Json.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\PagedList.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\PagedList.Mvc.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Helpers.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Mvc.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Optimization.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Razor.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.WebPages.Deployment.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.WebPages.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.WebPages.Razor.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\WebGrease.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\EntityFramework.xml
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\EntityFramework.SqlServer.xml
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\PagedList.xml
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\PagedList.Mvc.xml
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Helpers.xml
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Mvc.xml
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Optimization.xml
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Razor.xml
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.WebPages.xml
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.WebPages.Deployment.xml
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.WebPages.Razor.xml
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Newtonsoft.Json.xml
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Antlr3.Runtime.pdb
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\obj\Debug\BTL_N9.csproj.AssemblyReference.cache
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\obj\Debug\BTL_N9.csproj.CoreCompileInputs.cache
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\obj\Debug\BTL_N9.csproj.CopyComplete
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\obj\Debug\BTL_N9.dll
+E:\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\obj\Debug\BTL_N9.pdb
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\BTL_N9.dll.config
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\BTL_N9.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\BTL_N9.pdb
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\csc.exe
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\csc.exe.config
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\csc.rsp
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\csi.exe
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\csi.exe.config
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\csi.rsp
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.Managed.Core.targets
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.AppContext.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Collections.Immutable.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Console.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Globalization.Calendars.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.IO.Compression.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.IO.FileSystem.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Net.Http.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Net.Sockets.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Reflection.Metadata.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.ValueTuple.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Xml.XmlDocument.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Xml.XPath.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\vbc.exe
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\vbc.exe.config
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\vbc.rsp
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\VBCSCompiler.exe
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\roslyn\VBCSCompiler.exe.config
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Antlr3.Runtime.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\EntityFramework.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\EntityFramework.SqlServer.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Microsoft.Web.Infrastructure.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Newtonsoft.Json.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\PagedList.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\PagedList.Mvc.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Helpers.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Mvc.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Optimization.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Razor.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.WebPages.Deployment.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.WebPages.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.WebPages.Razor.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\WebGrease.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\EntityFramework.xml
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\EntityFramework.SqlServer.xml
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\PagedList.xml
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\PagedList.Mvc.xml
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Helpers.xml
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Mvc.xml
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Optimization.xml
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.Razor.xml
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.WebPages.xml
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.WebPages.Deployment.xml
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\System.Web.WebPages.Razor.xml
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Newtonsoft.Json.xml
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Antlr3.Runtime.pdb
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\obj\Debug\BTL_N9.csproj.AssemblyReference.cache
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\obj\Debug\BTL_N9.csproj.CoreCompileInputs.cache
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\obj\Debug\BTL_N9.dll
+D:\LT UD CSDL trên Web\aaBTL\Nhom9_051\Nhom9_051\ChuongTrinh\BTL_N9\BTL_N9\obj\Debug\BTL_N9.pdb

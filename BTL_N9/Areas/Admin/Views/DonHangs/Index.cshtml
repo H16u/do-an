@@ -1,0 +1,124 @@
+﻿@model PagedList.IPagedList<BTL_N9.Models.DonHang>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Danh sách đơn hàng</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-group col-md-12">
+            <input type="search" id="myInput" onkeyup="myFunction()" placeholder="Tìm kiếm đơn hàng" class="form-control bg-light" style="width:50%;">
+        </div>
+    </div>
+    <table class="table table-striped table-bordered" id="myTable" style="margin-top:15px;">
+        <thead style="background-color:lightskyblue;">
+            <tr>
+                <th>
+                    Mã đơn hàng
+                </th>
+                <th>
+                    Tên khách hàng
+                </th>
+                <th>
+                    Tên sản phẩm
+                </th>
+                <th>
+                    Số lượng
+                </th>
+                <th>
+                    Thời gian
+                </th>
+                <th>
+                    Tình trạng
+                </th>
+                <th>
+                    Xác nhận
+                </th>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tbody>
+                @using (Html.BeginForm("Index", "DonHangs", FormMethod.Post))
+                {
+                    <tr>
+                        <td>
+                            <strong>@Html.DisplayFor(modelItem => item.MaDonHang)</strong>
+                            <input type="hidden" value="@item.MaDonHang" name="maDH" id="maDH" />
+                            <input type="hidden" value="@item.MaSanPham" name="maSP" id="maSP" />
+                        </td>
+                        <td>
+                            @{ 
+                                string maKH = "~/Admin/KhachHangs/Details/" + item.MaKhachHang;
+                            }
+                            <a href=@Url.Content(maKH)>
+                                <strong>@Html.DisplayFor(modelItem => item.KhachHang.TenKhachHang)</strong>
+                            </a>
+                        </td>
+                        <td>
+                            @{
+                                string maSP = "~/Admin/SanPhams/Details/" + item.MaSanPham;
+                            }
+                            <a href=@Url.Content(maSP)>
+                                <strong>@Html.DisplayFor(modelItem => item.SanPham.TenSanPham)</strong>
+                            </a>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SoLuong)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ThoiGian)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TinhTrang)
+                        </td>
+                        <td>
+                            @if (item.TinhTrang == true)
+                            {
+                                <input type="submit" class="btn btn-primary glyphicon glyphicon-edit" name="XacNhan" id="XacNhan" value="Chưa gửi" />
+                            }
+                            else 
+                            {
+                                <input type="submit" class="btn btn-primary glyphicon glyphicon-edit" name="XacNhan" id="XacNhan" value="Đã gửi" />
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        }
+    </table>
+    
+    Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+</div>
+<script>
+    function myFunction() {
+        // Khai báo biến
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+
+        // loc và tìm kiếm trong bảng
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+</script>
+

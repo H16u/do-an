@@ -1,0 +1,112 @@
+﻿@model PagedList.IPagedList<BTL_N9.Models.NhanVien>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@{
+    ViewBag.Title = "Index";
+}
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Danh sách nhân viên</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-group col-md-12">
+            @using (Html.BeginForm())
+            {
+                <p>
+                    Tìm nhân viên: @Html.TextBox("SeachString", ViewBag.CurrentFilter as string)
+                    <input type="submit" value="Tìm" />
+                    <span style="position: absolute; right: 0;">@Html.ActionLink("Thêm", "Create", "NhanViens", new { @class = "btn btn-success fa fa-plus" })</span>
+                </p>             
+            }
+        </div>
+
+    </div>
+    <table class="table table-striped table-bordered" id="myTable" style="margin-top:15px;">
+        <thead style="background-color:lightskyblue;">
+            <tr>
+                <th>
+                    @Html.ActionLink("Mã nhân viên", "Index", new { sortOrder = ViewBag.SapTheoMaNhanVien, currentFilter = ViewBag.CurrentFilter })
+                </th>
+                <th>
+                    @Html.ActionLink("Tên nhân viên", "Index", new { sortOrder = ViewBag.SapTheoTen, currentFilter = ViewBag.CurrentFilter })
+                </th>
+                <th>
+                    Chức vụ
+                </th>
+                <th>
+                    Tên đăng nhập
+                </th>
+                <th>
+                    Mật khẩu
+                </th>
+                <th>
+                    Thao tác
+                </th>
+            </tr>
+        </thead>
+
+        @{
+            int count = 0;
+            foreach (var item in Model)
+            {
+                if (item.MaNhanVien == "NV01")
+                {
+                    <tr>
+                        <td>
+                            <strong>@Html.DisplayFor(modelItem => item.MaNhanVien)</strong>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TenNhanVien)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ChucVu.TenChucVu)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TenDangNhap)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MatKhau)
+                        </td>
+                        <td></td>
+                    </tr>
+                }
+                else
+                {
+                    <tr>
+                        <td>
+                            <strong>@Html.DisplayFor(modelItem => item.MaNhanVien)</strong>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TenNhanVien)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ChucVu.TenChucVu)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TenDangNhap)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MatKhau)
+                        </td>
+                        <td>
+
+                            @Html.ActionLink("Sửa", "Edit", "NhanViens", new { id = item.MaNhanVien.Trim() }, new { @class = "btn btn-primary glyphicon glyphicon-edit" }) |
+                            @Html.ActionLink("Chi tiết", "Details", "NhanViens", new { id = item.MaNhanVien.Trim() }, new { @class = "btn btn-default glyphicon glyphicon-eye-open" }) |
+                            @Html.ActionLink("Xóa", "Delete", "NhanViens", new { id = item.MaNhanVien.Trim() }, new { @class = "btn btn-danger glyphicon glyphicon-remove" })
+
+                        </td>
+                    </tr>
+
+                }
+                count++;
+            }
+        }
+
+    </table>
+    Trang @(Model.PageCount<Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, sortOrder = ViewBag.CurrentSort, currentFiler = ViewBag.CurrentFilter }))
+</div>
+

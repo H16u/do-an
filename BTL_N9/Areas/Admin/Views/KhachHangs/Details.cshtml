@@ -1,0 +1,68 @@
+﻿@model BTL_N9.Models.KhachHang
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div id="page-wrapper">
+    <div>
+        <h4>Khách hàng có mã: <strong>@Model.MaKhachHang</strong></h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.TenDangNhap)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.TenDangNhap)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.MatKhau)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.MatKhau)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.TenKhachHang)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.TenKhachHang)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DiaChi)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DiaChi)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.SoDienThoai)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.SoDienThoai)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Sửa", "Edit", "KhachHangs", new { id = Model.MaKhachHang.Trim() }, new { @class = "btn btn-default glyphicon glyphicon-edit" }) |
+        @Html.ActionLink("Quay lại", "Index", "KhachHangs", new { @class = "btn btn-primary" })
+    </p>
+</div>
+
+
